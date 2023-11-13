@@ -2,13 +2,9 @@ import Image from '~/components/image'
 import SectionHeader from './section-header'
 import images from '~/assets/images'
 import SkillItem from './skill-item'
-import {
-	frameworks,
-	databases,
-	languages,
-	other,
-	tools,
-} from '~/fixtures/skills.json'
+import skills from '~/fixtures/skills.json'
+
+const { languages, databases, other, frameworks, tools } = skills
 
 export default function Skills() {
 	return (
