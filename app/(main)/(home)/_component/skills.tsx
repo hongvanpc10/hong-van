@@ -20,29 +20,17 @@ export default function Skills() {
 				</div>
 
 				<div className='grid grid-cols-3 gap-5'>
-					<SkillItem
-						title='Languages'
-						technologies={languages}
-					/>
+					<SkillItem title='Languages' technologies={languages} />
 					<div className='space-y-5'>
-						<SkillItem
-							title='Databases'
-							technologies={databases}
-						/>
-						<SkillItem
-							title='Other'
-							technologies={other}
-						/>
+						<SkillItem title='Databases' technologies={databases} />
+						<SkillItem title='Other' technologies={other} />
 					</div>
 					<div className='space-y-5'>
 						<SkillItem
 							title='Frameworks'
 							technologies={frameworks}
 						/>
-						<SkillItem
-							title='Tools'
-							technologies={tools}
-						/>
+						<SkillItem title='Tools' technologies={tools} />
 					</div>
 				</div>
 			</div>

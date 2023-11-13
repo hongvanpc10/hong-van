@@ -13,19 +13,19 @@ export default function AboutMe() {
 			<div className='flex justify-between'>
 				<div className='max-w-lg'>
 					<div className='space-y-6 text-gray-400'>
-						<p>Hello, i'm Van!</p>
+						<p>{"Hello, i'm Van!"}</p>
 						<p>
-							I'm a self-taught front-end developer based in
+							{`I'm a self-taught front-end developer based in
 							Vietnam. I can develop responsive websites from
 							scratch and raise them into modern user-friendly web
-							experiences.
+							experiences.`}
 						</p>
 						<p>
-							Transforming my creativity and knowledge into a
+							{`Transforming my creativity and knowledge into a
 							websites has been my passion for over a year. I have
 							been helping various clients to establish their
 							presence online. I always strive to learn about the
-							newest technologies and frameworks.
+							newest technologies and frameworks.`}
 						</p>
 					</div>
 
