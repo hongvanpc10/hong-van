@@ -1,0 +1,16 @@
+[
+	{
+		"name": "Codezer",
+		"description": "Blog for front-end developers",
+		"technologies": ["Next.js", "Node.js", "Express"],
+		"image": "https://i.ibb.co/yy2trCP/Screenshot-2023-11-13-at-18-05-57.png",
+		"url": "https://codezer.vercel.app"
+	},
+	{
+		"name": "404Lab",
+		"description": "Blog for front-end developers",
+		"technologies": ["Next.js", "Node.js", "Express"],
+		"image": "https://i.ibb.co/DGstx45/image.png",
+		"url": "https://404lab.site"
+	}
+]

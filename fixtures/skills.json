@@ -1,0 +1,7 @@
+{
+	"languages": ["Python", "Javascript", "Typescript"],
+	"databases": ["MongoDB"],
+	"tools": ["VSCode", "Linux", "Figma", "AI"],
+	"frameworks": ["React", "Node.js", "Express.js", "Next.js", "Tailwind CSS"],
+	"other": ["Git", "HTML", "CSS", "SASS"]
+}
