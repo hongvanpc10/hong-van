@@ -12,12 +12,10 @@ export default function First() {
 				<h2 className='text-3xl font-medium'>
 					{information.name} is a{' '}
 					{information.jobs.map((job, index) => (
-						<>
+						<span key={index}>
 							{index > 0 && ' and '}
-							<span key={index} className='text-primary-500'>
-								{job}
-							</span>
-						</>
+							<span className='text-primary-500'>{job}</span>
+						</span>
 					))}
 				</h2>
 				<h3 className='mt-8 text-gray-400'>
