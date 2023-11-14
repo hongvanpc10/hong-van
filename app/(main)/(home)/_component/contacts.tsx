@@ -1,5 +1,6 @@
 import { Email } from '~/components/icons'
-import SectionHeader from './section-header'
+import SectionHeader from '../../_components/section-header'
+import information from '~/fixtures/information.json'
 
 export default function Contacts() {
 	return (
@@ -18,7 +19,7 @@ export default function Contacts() {
 						<ul className='text-gray-400 space-y-4'>
 							<li className='flex items-center'>
 								<Email className='h-4 mr-3' />
-								<h4>hongvanpc10@gmail.com</h4>
+								<h4>{information.email}</h4>
 							</li>
 						</ul>
 					</div>

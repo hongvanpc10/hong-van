@@ -1,9 +1,10 @@
 import Image from '~/components/image'
-import SectionHeader from './section-header'
+import SectionHeader from '../../_components/section-header'
 import images from '~/assets/images'
 import Link from 'next/link'
 import routes from '~/configs/routes'
 import Button from '~/components/button'
+import information from '~/fixtures/information.json'
 
 export default function AboutMe() {
 	return (
@@ -13,20 +14,9 @@ export default function AboutMe() {
 			<div className='flex justify-between'>
 				<div className='max-w-lg'>
 					<div className='space-y-6 text-gray-400'>
-						<p>{"Hello, i'm Van!"}</p>
-						<p>
-							{`I'm a self-taught front-end developer based in
-							Vietnam. I can develop responsive websites from
-							scratch and raise them into modern user-friendly web
-							experiences.`}
-						</p>
-						<p>
-							{`Transforming my creativity and knowledge into a
-							websites has been my passion for over a year. I have
-							been helping various clients to establish their
-							presence online. I always strive to learn about the
-							newest technologies and frameworks.`}
-						</p>
+						{information.aboutMe.map((content, index) => (
+							<p key={index}>{content}</p>
+						))}
 					</div>
 
 					<Link href={routes.aboutMe} className='inline-block mt-10'>
@@ -46,7 +36,7 @@ export default function AboutMe() {
 					/>
 					<Image
 						alt='about-me'
-						src={images.aboutMeSectionImage}
+						src={information.images[1]}
 						className='-mt-20'
 					/>
 				</div>

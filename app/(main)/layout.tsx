@@ -9,7 +9,9 @@ export default function MainLayout({
 	return (
 		<div>
 			<Header />
-			<div className='container mt-20 mb-36'>{children}</div>
+			<div className='container min-h-[calc(100vh-20rem)] mt-20 mb-36'>
+				{children}
+			</div>
 			<Footer />
 		</div>
 	)

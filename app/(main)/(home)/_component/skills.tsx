@@ -1,5 +1,5 @@
 import Image from '~/components/image'
-import SectionHeader from './section-header'
+import SectionHeader from '../../_components/section-header'
 import images from '~/assets/images'
 import SkillItem from './skill-item'
 import skills from '~/fixtures/skills.json'

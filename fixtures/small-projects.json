@@ -1,0 +1,14 @@
+[
+	{
+		"name": "Codezer",
+		"description": "Blog for front-end developers",
+		"technologies": ["Next.js", "Node.js", "Express"],
+		"url": "https://codezer.vercel.app"
+	},
+	{
+		"name": "404Lab",
+		"description": "Blog for front-end developers",
+		"technologies": ["Next.js", "Node.js", "Express"],
+		"url": "https://404lab.site"
+	}
+]

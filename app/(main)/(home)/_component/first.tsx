@@ -3,20 +3,25 @@ import images from '~/assets/images'
 import Button from '~/components/button'
 import Image from '~/components/image'
 import routes from '~/configs/routes'
+import information from '~/fixtures/information.json'
 
 export default function First() {
 	return (
 		<section className='flex items-center'>
 			<div className='flex-1 pr-24'>
 				<h2 className='text-3xl font-medium'>
-					Hong Van is a{' '}
-					<span className='text-primary-500'>
-						front-end developer
-					</span>
+					{information.name} is a{' '}
+					{information.jobs.map((job, index) => (
+						<>
+							{index > 0 && ' and '}
+							<span key={index} className='text-primary-500'>
+								{job}
+							</span>
+						</>
+					))}
 				</h2>
 				<h3 className='mt-8 text-gray-400'>
-					He crafts responsive websites where technologies meet
-					creativity
+					{information.jobsDescriptions}
 				</h3>
 				<Link href={routes.contacts} className='mt-10 inline-block'>
 					<Button>Contact me !!</Button>
@@ -30,7 +35,7 @@ export default function First() {
 				/>
 				<Image
 					alt='profile-picture'
-					src={images.profilePicture}
+					src={information.images[0]}
 					className=''
 				/>
 				<div className='py-1.5 px-2 mx-auto w-[85%] mt-1 border border-gray-400 flex items-center'>

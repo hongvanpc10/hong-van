@@ -1,0 +1,21 @@
+{
+	"name": "Hong Van",
+	"quote": {
+		"author": "Anonymous",
+		"content": "It's not a bug, it's an undocumented feature."
+	},
+	"email": "hongvanpc10@gmail.com",
+	"github": "https://github.com/hongvanpc10",
+	"linkedin": "",
+	"images": [
+		"https://i.ibb.co/xYSZ7T4/image.png",
+		"https://i.ibb.co/rQD8K95/image.png"
+	],
+	"jobs": ["front-end developer"],
+	"jobsDescriptions": "He crafts responsive websites where technologies meet creativity",
+	"aboutMe": [
+		"Hello, i'm Van!",
+		"I'm a self-taught front-end developer based in Vietnam. I can develop responsive websites from scratch and raise them into modern user-friendly web experiences.",
+		"Transforming my creativity and knowledge into a websites has been my passion for over a year. I have been helping various clients to establish their presence online. I always strive to learn about the newest technologies and frameworks."
+	]
+}
