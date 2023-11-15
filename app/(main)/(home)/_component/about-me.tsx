@@ -39,6 +39,7 @@ export default function AboutMe() {
 						src={information.images[1]}
 						className='-mt-20'
 					/>
+					<div className='h-[1px] w-[80%] bg-primary-500 mx-auto mt-1' />
 				</div>
 			</div>
 		</section>
